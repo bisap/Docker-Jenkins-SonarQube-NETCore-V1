@@ -5,7 +5,7 @@ namespace calculation_console
         private readonly decimal x;
         private readonly decimal y;
 
-        
+        private readonly decimal z;
       
 
         public Subtraction(decimal x, decimal y)

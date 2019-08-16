@@ -1,0 +1,1 @@
+C:\source\Sonar\Docker-Jenkins-SonarQube-NETCore-V1\.sonarqube\out\0
