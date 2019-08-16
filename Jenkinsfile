@@ -26,7 +26,7 @@ pipeline {
             //    sh "dotnet build-server shutdown"
             //    echo "dotnet test OK"
 
-
+          //  sh "dotnet tool install --global coverlet.console --version 1.4.1"
             sh "dotnet restore"
             sh "dotnet test calculation.tests/calculation.tests.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover"
             sh "dotnet build-server shutdown"
