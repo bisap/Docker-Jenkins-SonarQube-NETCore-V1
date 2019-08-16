@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="35" visitedSequencePoints="32" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="91.42" branchCoverage="100" maxCyclomaticComplexity="9" minCyclomaticComplexity="9" visitedClasses="4" numClasses="5" visitedMethods="8" numMethods="9" />
   <Modules>
-    <Module hash="99A51EA1-4B4D-4E3B-B753-482A3AD822CA">
+    <Module hash="2AB78B53-8C8E-40C8-AB24-407B2279A743">
       <ModulePath>calculation-console.dll</ModulePath>
-      <ModuleTime>2019-08-14T02:19:27</ModuleTime>
+      <ModuleTime>2019-08-16T11:05:51</ModuleTime>
       <ModuleName>calculation-console</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\source\Sonar\Docker-Jenkins-SonarQube-NETCore-V1\calculation-console\Addition.cs" />
@@ -145,12 +145,12 @@
               <Name>System.Decimal calculation_console.Subtraction::Calculate()</Name>
               <FileRef uid="5" />
               <SequencePoints>
-                <SequencePoint vc="3" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="3" uspid="19" ordinal="1" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="3" uspid="20" ordinal="2" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="20" ordinal="1" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="5" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="18" ec="1" el="20" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="19" ec="1" el="21" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
@@ -158,14 +158,14 @@
               <Name>System.Void calculation_console.Subtraction::.ctor(System.Decimal,System.Decimal)</Name>
               <FileRef uid="5" />
               <SequencePoints>
-                <SequencePoint vc="3" uspid="11" ordinal="0" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="3" uspid="12" ordinal="1" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="3" uspid="13" ordinal="2" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="3" uspid="14" ordinal="3" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="5" />
-                <SequencePoint vc="3" uspid="15" ordinal="4" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="13" ordinal="1" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="14" ordinal="2" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="15" ordinal="3" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="16" ordinal="4" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="5" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="11" ec="1" el="15" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="12" ec="1" el="16" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
             </Method>
           </Methods>
         </Class>

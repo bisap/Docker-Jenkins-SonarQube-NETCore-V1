@@ -1,9 +1,0 @@
-U
-SC:\source\Sonar\Docker-Jenkins-SonarQube-NETCore-V1\calculation-console\Addition.csU
-SC:\source\Sonar\Docker-Jenkins-SonarQube-NETCore-V1\calculation-console\Division.csY
-WC:\source\Sonar\Docker-Jenkins-SonarQube-NETCore-V1\calculation-console\ICalculation.cs[
-YC:\source\Sonar\Docker-Jenkins-SonarQube-NETCore-V1\calculation-console\Multiplication.csT
-RC:\source\Sonar\Docker-Jenkins-SonarQube-NETCore-V1\calculation-console\Program.csX
-VC:\source\Sonar\Docker-Jenkins-SonarQube-NETCore-V1\calculation-console\Subtraction.csV
-RC:\Users\BAPURBA\AppData\Local\Temp\.NETCoreApp,Version=v2.1.AssemblyAttributes.csˆ
-ƒC:\source\Sonar\Docker-Jenkins-SonarQube-NETCore-V1\calculation-console\obj\Debug\netcoreapp2.1\calculation-console.AssemblyInfo.cs
