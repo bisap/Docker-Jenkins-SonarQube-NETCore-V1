@@ -30,7 +30,7 @@ pipeline {
 
             sh "dotnet test calculation.tests/calculation.tests.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover"
             sh "dotnet build-server shutdown"
-            sh "dotnet sonarscanner begin /k:\"soanr_qube_qualitygates\" /d:sonar.host.url=http://139.59.47.153:9000 /d:sonar.cs.opencover.reportsPaths=\"calculation.tests\\coverage.opencover.xml\" /d:sonar.coverage.exclusions=\"**Tests*.cs\" "
+            sh "dotnet sonarscanner begin /k:\"soanr_qube_qualitygates\" /d:sonar.host.url=http://139.59.47.153:9000 /d:sonar.cs.opencover.reportsPaths=\"calculation.tests\coverage.opencover.xml\" /d:sonar.coverage.exclusions=\"**Tests*.cs\" "
             sh "dotnet build"
             sh "dotnet sonarscanner end"
 
