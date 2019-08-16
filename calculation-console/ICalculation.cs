@@ -4,4 +4,10 @@ namespace calculation_console
     {
         decimal Calculate();
     }
+
+    public interface IExtendedCalculation
+    {
+
+        decimal Calculate_Extended();
+    }
 }
